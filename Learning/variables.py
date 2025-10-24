@@ -22,3 +22,17 @@ print(name)       # Output: Alice
 # 4. Variable names are case-sensitive (age, Age and AGE are three different variables or myVar and myvar are different)
 # 5. Avoid using Python keywords (e.g., if, else, for) as variable names
 # 6. Use meaningful variable names that describe the data they hold (e.g., age, name, total_price) 
+
+## Valid Variable Names
+
+age = 21
+_colour = "lilac"
+total_score = 90
+
+# Invalid Variable Names
+
+# 1st_name = "John"  # Invalid: starts with a digit
+# total-score = 100  # Invalid: contains a hyphen
+# 1name = "Error"  # Starts with a digit
+# class = 10       # 'class' is a reserved keyword
+# user-name = "Doe"  # Contains a hyphen
